@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKLabsCalculator'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Provides basic arithmatic operations'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/butchipeddi/learnings/SKLabsCalculator'
+  s.homepage         = 'https://github.com/butchipeddi/learnings.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'SKLabsCalculator/LICENSE' }
   s.author           = { 'butchipeddi' => 'butchi.peddi@gmail.com' }
@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = ['3.2', '4.0', '4.2']
 
-  s.source_files = 'SKLabsCalculator/Classes/**/*'
+  s.source_files = 'SKLabsCalculator/SKLabsCalculator/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SKLabsCalculator' => ['SKLabsCalculator/Assets/*.png']
