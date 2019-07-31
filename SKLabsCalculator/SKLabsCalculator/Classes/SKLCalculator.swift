@@ -8,21 +8,21 @@
 
 import Foundation
 
-public class Calculator<T:Numeric>: NSObject {
+public class SKLCalculator<T:Numeric>: NSObject {
     
-    func add(_ operand1:T, _ operand2:T) -> T {
+    public func add(_ operand1:T, _ operand2:T) -> T {
         return operand1 + operand2;
     }
     
-    func sub(_ operand1:T, _ operand2:T) -> T {
+    public func sub(_ operand1:T, _ operand2:T) -> T {
         return operand1 - operand2;
     }
     
-    func mul(_ operand1:T, _ operand2:T) -> T {
+    public func mul(_ operand1:T, _ operand2:T) -> T {
         return operand1 * operand2;
     }
     
-    func div(_ operand1:T, _ operand2:T) -> T {
+    public func div(_ operand1:T, _ operand2:T) -> T {
         
         var result:T = 0;
         
