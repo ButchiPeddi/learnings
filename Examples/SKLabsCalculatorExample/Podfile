@@ -1,0 +1,2 @@
+target 'SKLabsCalculatorExample'
+pod 'SKLabsCalculator','0.0.3'

@@ -1,0 +1,16 @@
+PODS:
+  - SKLabsCalculator (0.0.3)
+
+DEPENDENCIES:
+  - SKLabsCalculator (= 0.0.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SKLabsCalculator
+
+SPEC CHECKSUMS:
+  SKLabsCalculator: 56156aeeb0d874ddb2b6ce4cbc34eace8f7f32d9
+
+PODFILE CHECKSUM: a0d6b06ef4730cb1c788d272b33d4173a3101bbf
+
+COCOAPODS: 1.7.5

@@ -14,6 +14,8 @@
 		5127282422F16DE400603878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5127282222F16DE400603878 /* LaunchScreen.storyboard */; };
 		5127282F22F16DE400603878 /* SKLabsCalculatorExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5127282E22F16DE400603878 /* SKLabsCalculatorExampleTests.swift */; };
 		5127283A22F16DE400603878 /* SKLabsCalculatorExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5127283922F16DE400603878 /* SKLabsCalculatorExampleUITests.swift */; };
+		5127284822F172CD00603878 /* libSKLabsCalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5127284722F172CD00603878 /* libSKLabsCalculator.a */; };
+		8E34001047179581270EDD78 /* libPods-SKLabsCalculatorExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA7C6BE012E0C41317C88A3 /* libPods-SKLabsCalculatorExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2504031DE02706BF6F2FD6A3 /* Pods-SKLabsCalculatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKLabsCalculatorExample.debug.xcconfig"; path = "Target Support Files/Pods-SKLabsCalculatorExample/Pods-SKLabsCalculatorExample.debug.xcconfig"; sourceTree = "<group>"; };
 		5127281622F16DE300603878 /* SKLabsCalculatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKLabsCalculatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5127281922F16DE300603878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5127281B22F16DE300603878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		5127283522F16DE400603878 /* SKLabsCalculatorExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKLabsCalculatorExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5127283922F16DE400603878 /* SKLabsCalculatorExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKLabsCalculatorExampleUITests.swift; sourceTree = "<group>"; };
 		5127283B22F16DE400603878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5127284722F172CD00603878 /* libSKLabsCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSKLabsCalculator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7D9FF1835AE72E129DEE15 /* Pods-SKLabsCalculatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKLabsCalculatorExample.release.xcconfig"; path = "Target Support Files/Pods-SKLabsCalculatorExample/Pods-SKLabsCalculatorExample.release.xcconfig"; sourceTree = "<group>"; };
+		EAA7C6BE012E0C41317C88A3 /* libPods-SKLabsCalculatorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKLabsCalculatorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5127284822F172CD00603878 /* libSKLabsCalculator.a in Frameworks */,
+				8E34001047179581270EDD78 /* libPods-SKLabsCalculatorExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250088AA374D292706256599 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2504031DE02706BF6F2FD6A3 /* Pods-SKLabsCalculatorExample.debug.xcconfig */,
+				BF7D9FF1835AE72E129DEE15 /* Pods-SKLabsCalculatorExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5127280D22F16DE300603878 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				5127282D22F16DE400603878 /* SKLabsCalculatorExampleTests */,
 				5127283822F16DE400603878 /* SKLabsCalculatorExampleUITests */,
 				5127281722F16DE300603878 /* Products */,
+				250088AA374D292706256599 /* Pods */,
+				5BEE7D48180C8D831A6F858E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +144,15 @@
 			path = SKLabsCalculatorExampleUITests;
 			sourceTree = "<group>";
 		};
+		5BEE7D48180C8D831A6F858E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5127284722F172CD00603878 /* libSKLabsCalculator.a */,
+				EAA7C6BE012E0C41317C88A3 /* libPods-SKLabsCalculatorExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5127283E22F16DE400603878 /* Build configuration list for PBXNativeTarget "SKLabsCalculatorExample" */;
 			buildPhases = (
+				54B39FADC3A47CF5426ED300 /* [CP] Check Pods Manifest.lock */,
 				5127281222F16DE300603878 /* Sources */,
 				5127281322F16DE300603878 /* Frameworks */,
 				5127281422F16DE300603878 /* Resources */,
@@ -250,6 +279,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54B39FADC3A47CF5426ED300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKLabsCalculatorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5127281222F16DE300603878 /* Sources */ = {
@@ -430,16 +484,18 @@
 		};
 		5127283F22F16DE400603878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2504031DE02706BF6F2FD6A3 /* Pods-SKLabsCalculatorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D4W5F4Y63B;
 				INFOPLIST_FILE = SKLabsCalculatorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sklabs.SKLabsCalculatorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sklabs.ConvivaAVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,16 +504,18 @@
 		};
 		5127284022F16DE400603878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7D9FF1835AE72E129DEE15 /* Pods-SKLabsCalculatorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D4W5F4Y63B;
 				INFOPLIST_FILE = SKLabsCalculatorExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sklabs.SKLabsCalculatorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sklabs.ConvivaAVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

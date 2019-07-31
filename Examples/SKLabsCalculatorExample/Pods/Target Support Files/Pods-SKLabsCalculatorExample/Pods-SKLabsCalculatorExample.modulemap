@@ -1,0 +1,6 @@
+module Pods_SKLabsCalculatorExample {
+  umbrella header "Pods-SKLabsCalculatorExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

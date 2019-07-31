@@ -1,0 +1,6 @@
+module SKLabsCalculator {
+  umbrella header "SKLabsCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
